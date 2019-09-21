@@ -9,7 +9,7 @@ author:
 numbersections: true
 output:
   pdf_document:
-    keep_tex: false
+    keep_tex: true
     fig_crop: false
 abstract: >
   Indonesia is having an increasing surge of published scientific articles
