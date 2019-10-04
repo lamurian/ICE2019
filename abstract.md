@@ -2,10 +2,10 @@
 title: >
   Graph Database on Medical Research Data for Integrated Life Science Research
 author:
-#- Aly Lamuri
-#- Jonathan Midlando Adithama Purba
-#- Randy Sarayar
-#- Adrian Reynaldo Sudirman
+- Aly Lamuri
+- Jonathan Midlando Adithama Purba
+- Adrian Reynaldo Sudirman
+- Randy Sarayar
 numbersections: true
 output:
   pdf_document:
