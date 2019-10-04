@@ -180,11 +180,7 @@ knitr::include_graphics('_fig/query-plan-1.png')
 knitr::include_graphics('_fig/query-plan-2.png')
 ```
 
-* Show query example
-* Show how many db-hits on a query
-* Show figures describing query processing (require `Neo4j` browser)
-
-# Discussion
+# Discussion and Conclusion
 
 Our study demonstrates graph database as a potential platform to store life
 science research data. Previous studies emphasizes on graph database
@@ -192,17 +188,9 @@ credibility on storing interconnected data, where graph database pattern query
 on such data may outperform RDB [@Medhi2017; @Fabregat2018; @Mathew2014].
 However, on other cases requiring analytical query, RDB outperformed graph
 database, wherein their study @Holsch2017 argued `Neo4j` became less performant
-due to less advanced disk and buffer management compared to RDB.
-
-* Body: graph db as a possible solution, considering the intricate
-  relationships of medical information
-* Premises on how graph db can be further utilized, maintained and developed
-* Conclude the usability of graph db
-
-# Conclusion
-
-Graph database is quite performant to integrate medical health record generated
-for 5,000 subjects using `synthea` program.
+due to less advanced disk and buffer management compared to RDB. As a
+concluding remark, graph database is quite performant to integrate medical
+health record generated for 5,000 subjects using `synthea` program.
 
 # Reference {-}
 
