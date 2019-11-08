@@ -1,0 +1,13 @@
+# Blacklist everything
+*
+
+# Whitelist content of folder
+!/*
+# Whitelist specific file
+!*.Rmd
+!*.docx
+!*.pdf
+!.RData
+
+# Whitelist folder
+!./_calculation/**
