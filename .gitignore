@@ -3,11 +3,13 @@
 
 # Whitelist content of folder
 !/*
+
 # Whitelist specific file
-!*.Rmd
 !*.docx
-!*.pdf
+!.gitignore
 !.RData
+!*.Rmd
+!*.pdf
 
 # Whitelist folder
-!./_calculation/**
+!/_calculation/*.csv
